@@ -10,7 +10,9 @@ defineProps({
       <a href="#"><p>Главная</p></a>
       <a href="#"><p>Новые</p></a>
       <a href="#"><p>Мои запросы</p></a>
-      <a href="#"><p>{{ name }}</p></a>
+      <div class="w-2/5 flex justify-end">
+        <a href="#"><p>{{ name }}</p></a>
+      </div>
     </div>
   </div>
 </template>
